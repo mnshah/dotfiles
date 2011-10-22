@@ -4,6 +4,11 @@ export EDITOR=`which vim`
 # Whenever displaying the prompt, write the previous line to disk.
 export PROMPT_COMMAND="history -a"
 export CC="/usr/bin/gcc-4.2"
+export HADOOP_HOME=/usr/lib/hadoop-0.20
+export HADOOP_CONF_DIR=$HADOOP_HOME/conf
+export JAVA_HOME=/System/Library/Frameworks/JavaVM.framework/Versions/CurrentJDK/Home
+export PATH=$HADOOP_HOME/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export PATH=/Users/manish/src/mongo-current/bin:$PATH
 
 # Source global definitions
 [[ -s "/etc/bashrc" ]] && source "/etc/bashrc"
